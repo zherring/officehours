@@ -62,7 +62,9 @@ h1 { font-weight: 200; }
 // }
 
 #where {
-  img { max-width: 17em; margin-top: 1em; }
+  img { cursor: pointer; max-width: 17em; margin-top: 1em; opacity: .8; transition: all .15s ease-in-out;
+  &:hover { opacity: 1; transform: translateY(-.05em); }
+  }
 }
 #contact-form { width: 50%;
   img#form-top { width: 100%; margin-bottom: -1px;  }

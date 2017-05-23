@@ -63,8 +63,14 @@ h1 {
     text-align: left; }
 
 #where img {
+  cursor: pointer;
   max-width: 17em;
-  margin-top: 1em; }
+  margin-top: 1em;
+  opacity: .8;
+  transition: all .15s ease-in-out; }
+  #where img:hover {
+    opacity: 1;
+    transform: translateY(-0.05em); }
 
 #contact-form {
   width: 50%;
