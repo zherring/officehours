@@ -134,7 +134,7 @@ h2 { color: var(--darkgreen); }
   grid-template-rows: auto auto auto;
   grid-template-areas: "img img header header header header"
                       "signup signup signup signup signup signup"
-                      "who who who what where where"
+                      "who who who where where where"
                       "divider divider divider divider divider divider"
                       "survey survey survey survey survey survey";
   justify-content: space-around;
