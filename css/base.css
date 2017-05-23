@@ -41,7 +41,7 @@ h1 {
     text-align: left; }
 
 #who, #where {
-  max-width: 32vw; }
+  width: 32vw; }
 
 #where img {
   max-width: 17em;

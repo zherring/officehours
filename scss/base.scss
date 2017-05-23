@@ -29,8 +29,16 @@ h1 { font-weight: 200; }
   p { text-align: left; }
 }
 // .space { grid-area: space; width: 1px; background: #7BDFD1; }
-#who, #where { max-width: 32vw; }
+#who, #where { width: 32vw; }
 
+// #where img {
+//   opacity: .8;
+//   transition: all .2s ease-in-out;
+//   &:hover {
+//     //transform: translateY(-.1em);
+//     opacity: 1;
+//   }
+// }
 
 #where {
   img { max-width: 17em; margin-top: 1em; }
