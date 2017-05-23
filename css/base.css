@@ -4,6 +4,28 @@
 :root {
   font-size: 18px; }
 
+h1,
+h2,
+h3,
+p,
+li,
+span,
+a,
+svg,
+img,
+aside,
+blockquote {
+  animation: loaded 1s; }
+
+@keyframes loaded {
+  0% {
+    opacity: 0;
+    transform: translateY(0.5em); }
+  75% {
+    opacity: 1; }
+  100% {
+    transform: translateY(0); } }
+
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif; }
 
