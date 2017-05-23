@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>button arrow copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="eu-rockies-office-hours" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024" stroke-linejoin="round">
+        <g id="Artboard-Copy" transform="translate(-857.000000, -1329.000000)" stroke="#FFFFFF" stroke-width="1.5999999">
+            <g id="button-arrow-copy" transform="translate(858.000000, 1330.000000)">
+                <circle id="Oval" cx="19" cy="19" r="19"></circle>
+                <g id="arrow" transform="translate(8.893617, 8.893617)">
+                    <path d="M10.5106383,18.5649861 L10.5106383,0.199477822" id="Line"></path>
+                    <polyline id="Path-4" points="0 12.993921 10.1020283 19.8085106 20.6546264 12.993921"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
