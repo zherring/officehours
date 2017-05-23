@@ -37,6 +37,10 @@ h1 { font-weight: 200; }
 }
 #contact-form { width: 50%;
   img#form-top { width: 100%; margin-bottom: -1px;  }
+
+  #survey-container { background: var(--white);
+  img { max-width: 70%; margin: 15%; margin-bottom: 0;}
+ }
   // background: var(--white);
   margin: 0 auto;
   // margin-top: 5em;
@@ -129,3 +133,4 @@ svg .steam { animation: radiate 520s infinite linear,  faded infinite 4s linear;
 }
 
 .sg-content, .sg-content .sg-question-options label, #contact-form .sg-body p { font-size: 1em; font-family: 'Montserrat', sans-serif; color: #505756; }
+.sg-header, .sg-progress-bar { display: none; }

@@ -53,6 +53,12 @@ h1 {
   #contact-form img#form-top {
     width: 100%;
     margin-bottom: -1px; }
+  #contact-form #survey-container {
+    background: var(--white); }
+    #contact-form #survey-container img {
+      max-width: 70%;
+      margin: 15%;
+      margin-bottom: 0; }
   #contact-form .sg-body {
     background: var(--white);
     padding-top: 1em; }
@@ -135,3 +141,6 @@ svg .steam {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   color: #505756; }
+
+.sg-header, .sg-progress-bar {
+  display: none; }
