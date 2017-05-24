@@ -26,6 +26,12 @@ blockquote {
   100% {
     transform: translateY(0); } }
 
+a {
+  color: var(--white);
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif; }
 
@@ -75,6 +81,10 @@ h1 {
 #contact-form {
   width: 50%;
   margin: 0 auto; }
+  #contact-form small, #contact-form small a {
+    color: #000;
+    opacity: .8;
+    padding: 1em; }
   #contact-form img#form-top {
     width: 100%;
     margin-bottom: -1px; }

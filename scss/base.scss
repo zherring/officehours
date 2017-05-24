@@ -22,7 +22,11 @@ blockquote {
   100%  { transform: translateY(0); }
   }
 
-
+a {
+  color: var(--white);
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
 h1,h2,h3,h4,h5 { font-family: 'Montserrat', sans-serif; }
 h1 { font-size: 4.5em; margin: .3em 0; }
 h2 { color: var(--dark-green); }
@@ -67,6 +71,7 @@ h1 { font-weight: 200; }
   }
 }
 #contact-form { width: 50%;
+  small, small a { color: #000; opacity: .8; padding: 1em; }
   img#form-top { width: 100%; margin-bottom: -1px;  }
 
   #survey-container { background: var(--white);
